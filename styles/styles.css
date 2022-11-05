@@ -1,0 +1,79 @@
+body {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  background: #cef9ff;
+  color: #000;
+  margin: 1rem;
+  align-items: center;
+  text-align: scenter;
+}
+
+img {
+  display: block;
+  max-width:100%;
+  border: 1px solid #666;
+  background: #fff;
+  padding: 1rem;
+}
+
+
+.rotate-right {
+  transform: rotate(10deg);
+}
+
+.rotate-left {
+  transform: rotate(-10deg);
+}
+
+header {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+h1 {
+font-family: 'Abril Fatface', Baskerville, Georgia, serif;
+  margin: 2rem;
+  color: #000;
+  font-size: 2rem;
+  text-align: center}
+
+#header{
+  margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+
+  #pictures{
+    font-size: 20px;
+  display: flex; /* keep */
+flex-direction: column;
+flex: 1 1 0;
+align-items: center;
+padding: 2rem;
+}
+
+#sisters {
+  font-size: 20px;
+  display: flex; /* keep */
+flex-direction: column;
+flex: 1 1 0;
+padding: 2rem;
+}
+
+#photo {
+margin: 1rem
+}
+
+#sister {
+  margin: 1rem
+}
+
+footer {
+background-color: #216FF0
+  color: #fff;
+  text-align:center;
+}
+
+@media screen and (max-width: 800px) {
+  article {
+    margin: 2rem;
+  }
